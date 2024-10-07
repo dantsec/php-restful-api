@@ -1,0 +1,15 @@
+meta {
+  name: Get Single User
+  type: http
+  seq: 3
+}
+
+get {
+  url: {{url}}/users/{{id}}
+  body: none
+  auth: none
+}
+
+vars:pre-request {
+  id: 10
+}

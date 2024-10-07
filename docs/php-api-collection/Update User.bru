@@ -1,0 +1,23 @@
+meta {
+  name: Update User
+  type: http
+  seq: 5
+}
+
+put {
+  url: {{url}}/users/{{id}}
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "darthvader",
+    "email": "darthvader@gmail.com",
+    "password": "father123wow"
+  }
+}
+
+vars:pre-request {
+  id: 1
+}
