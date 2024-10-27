@@ -51,6 +51,7 @@ brave http://localhost:8080/php-restful-api/public/
     - [ ] Improve file security on `.htaccess`.
     - [ ] Make migrations.
     - [ ] Authentication.
+    - [ ] Apply: `https://github.com/php-pds/skeleton?tab=readme-ov-file`
 - Priority (**2**)
     - [ ] Make it full MVC (implementing _view_ like laravel <3)
 
